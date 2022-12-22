@@ -1,0 +1,19 @@
+{
+  "packageId": "",
+  "spaceId": "",
+  "globalPackageId": "wpkgMavSIOOR9",
+  "entry": "./src/index.tsx",
+  "name": {
+    "en-US": "Pivot table"
+  },
+  "icon": "./package_icon.png",
+  "cover": "./cover.png",
+  "authorName": "APITable",
+  "authorIcon": "./author_icon.png",
+  "authorLink": "https://developers.apitable.com",
+  "authorEmail": "developer@apitable.com",
+  "description": {
+    "en-US": "Summarize your records in a pivot table"
+  },
+  "website": "https://help.apitable.com/docs/guide/intro-widget-pivot"
+}

@@ -1,0 +1,13 @@
+diff --git a/node_modules/ali-react-table/dist/chunks/ali-react-table-pipeline-72600030.esm.js b/node_modules/ali-react-table/dist/chunks/ali-react-table-pipeline-72600030.esm.js
+index f0e58d7..49edd76 100644
+--- a/node_modules/ali-react-table/dist/chunks/ali-react-table-pipeline-72600030.esm.js
++++ b/node_modules/ali-react-table/dist/chunks/ali-react-table-pipeline-72600030.esm.js
+@@ -1182,7 +1182,7 @@ function isScrollParent(element) {
+ }
+ 
+ function isWindow(arg) {
+-    return arg.toString() === '[object Window]';
++    return arg.toString() === '[object Window]' || arg.toString() === '[object global]';
+ }
+ function isBody(arg) {
+     return getNodeName(arg) === 'body';

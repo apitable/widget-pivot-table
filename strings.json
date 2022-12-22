@@ -1,0 +1,145 @@
+{
+	"strings": {
+		"pivot_table_no_data": {
+			"en_US": "At least one row (column) group and one summary value  must be selected to render as a PivotTable"
+		},
+		"pivot_table_no_data_plus": {
+			"en_US": "At least one row, one column and one summary value  must be selected to render as a PivotTable"
+		},
+		"pivot_table_filter_result_is_empty": {
+			"en_US": "No data can be displayed, you can check the corresponding view or filter criteria"
+		},
+		"pivot_settings": {
+			"en_US": "Pivot settings"
+		},
+		"pivot_function_settings": {
+			"en_US": "Function settings"
+		},
+		"pivot_select_view": {
+			"en_US": "Select a view as data source"
+		},
+		"pivot_select_row": {
+			"en_US": "Row"
+		},
+		"pivot_select_column": {
+			"en_US": "Column"
+		},
+		"pivot_select_value": {
+			"en_US": "Summarize by"
+		},
+		"pivot_split_multiple_values": {
+			"en_US": "Split multiple values"
+		},
+		"pivot_more_settings": {
+			"en_US": "More settings"
+		},
+		"pivot_row_sort": {
+			"en_US": "Sets the sorting of row"
+		},
+		"pivot_column_sort": {
+			"en_US": "Sets the sorting of column"
+		},
+		"pivot_summary_option": {
+			"en_US": "Show Totals"
+		},
+		"pivot_totals": {
+			"en_US": "Totals"
+		},
+		"pivot_subtotals": {
+			"en_US": "SubTotals"
+		},
+		"value_field_average": {
+			"en_US": "AVERAGE"
+		},
+		"value_field_max": {
+			"en_US": "MAX"
+		},
+		"value_field_min": {
+			"en_US": "MIN"
+		},
+		"value_field_sum": {
+			"en_US": "SUM"
+		},
+		"value_field_count_all": {
+			"en_US": "COUNTALL"
+		},
+		"value_field_empty": {
+			"en_US": "EMPTY"
+		},
+		"value_field_filled": {
+			"en_US": "FILLED"
+		},
+		"value_field_unique": {
+			"en_US": "UNIQUE"
+		},
+		"value_field_percent_empty": {
+			"en_US": "PERCENTEMPTY"
+		},
+		"value_field_percent_filled": {
+			"en_US": "PERCENTFILLED"
+		},
+		"value_field_percent_unique": {
+			"en_US": "PERCENTUNIQUE"
+		},
+		"year": {
+			"en_US": "Year"
+		},
+		"year_month_day_hyphen": {
+			"en_US": "Year-Month-Day"
+		},
+		"label_format_year_and_month_split_by_dash": {
+			"en_US": "Year-Month"
+		},
+		"year_season_hyphen": {
+			"en_US": "Year-Season"
+		},
+		"year_week_hyphen": {
+			"en_US": "Year-Week"
+		},
+		"pivot_option_view_had_been_deleted": {
+			"en_US": "The view is invalid, please select again"
+		},
+		"pivot_option_field_had_been_deleted": {
+			"en_US": "The field is invalid, please select again"
+		},
+		"option_blank": {
+			"en_US": "[None]"
+		},
+		"pivot_sort_by_ascending": {
+			"en_US": "Ascending"
+		},
+		"pivot_sort_by_descending": {
+			"en_US": "Descending"
+		},
+		"pivot_sort_by_default": {
+			"en_US": "Default"
+		},
+		"pick_one_option": {
+			"en_US": "Pick a field"
+		},
+		"search": {
+			"en_US": "Search"
+		},
+		"date_time_format": {
+			"en_US": "Date format"
+		},
+		"serial_number": {
+			"en_US": "Num"
+		},
+		"empty": {
+			"en_US": "Empty"
+		},
+		"pivot_setting_help_tips": {
+			"en_US": "Setting help"
+		},
+		"pivot_setting_help_url": {
+			"en_US": "https://help.apitable.com/docs/guide/intro-widget-pivot"
+		},
+		"pivot_filter_info": {
+			"en_US": "Add filtering criteria (Logical Conjunction)"
+		},
+		"pivot_equal": {
+			"en_US": "is..."
+		}
+	}
+}

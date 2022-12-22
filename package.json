@@ -40,7 +40,6 @@
     "@apitable/components": "latest",
     "@apitable/icons": "latest",
     "@apitable/widget-sdk": "latest",
-    "@apitable/core": "latest",
     "ali-react-table": "2.6.1",
     "dayjs": "^1.10.7",
     "lodash": "^4.17.21",
