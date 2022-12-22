@@ -1,0 +1,62 @@
+{
+  "version": "0.0.30",
+  "description": "Pivot table",
+  "engines": {
+    "node": ">=8.x"
+  },
+  "keywords": [
+    "apitable",
+    "widgets",
+    "apitable widgets"
+  ],
+  "main": "./dist/index",
+  "module": "./dist/index",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "start": "widget-cli start",
+    "release": "widget-cli release",
+    "postinstall": "patch-package"
+  },
+  "transform": {
+    "^.+\\.(t|j)sx?$": "ts-jest"
+  },
+  "jest": {
+    "testMatch": [
+      "**/__tests__/**/*.test.(t|j)s"
+    ]
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "@apitable/components": "latest",
+    "@apitable/icons": "latest",
+    "@apitable/widget-sdk": "latest",
+    "@apitable/core": "latest",
+    "ali-react-table": "2.6.1",
+    "dayjs": "^1.10.7",
+    "lodash": "^4.17.21",
+    "typescript": "4.1.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-typescript": "^7.16.7",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^16.4.10",
+    "jest": "^27.5.1",
+    "patch-package": "^6.4.7",
+    "postinstall-postinstall": "^2.1.0",
+    "ts-jest": "^27.1.3"
+  },
+  "authorName": "__template__",
+  "authorLink": "https://developers.apitable.com",
+  "authorEmail": "dev@apitable.com"
+}
