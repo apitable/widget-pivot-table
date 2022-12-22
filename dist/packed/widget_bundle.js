@@ -434,8 +434,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _apitable_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @apitable/components */ "@apitable/components");
 /* harmony import */ var _apitable_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_apitable_components__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _empty_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../empty.png */ "../../../../../../../../../Documents/vika/widget-pivot-table/empty.png");
-
 
 
 function defaultEmptyContent(props) {
@@ -443,7 +441,7 @@ function defaultEmptyContent(props) {
     var colors = (0,_apitable_components__WEBPACK_IMPORTED_MODULE_1__.useThemeColors)();
     return (0,react__WEBPACK_IMPORTED_MODULE_0__.memo)(function () {
         return react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null,
-            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { alt: "empty-image", src: _empty_png__WEBPACK_IMPORTED_MODULE_2__, style: {
+            react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", { alt: "empty-image", src: "https://legacy-s1.apitable.com/space/2022/12/22/0357ee4370a24c4fa5987826ba52e11f?attname=image.png", style: {
                     width: 160,
                     height: 120
                 } }),
@@ -43199,17 +43197,6 @@ function __classPrivateFieldSet(receiver, privateMap, value) {
 
 /***/ }),
 
-/***/ "../../../../../../../../../Documents/vika/widget-pivot-table/empty.png":
-/*!******************************************************************************!*\
-  !*** ../../../../../../../../../Documents/vika/widget-pivot-table/empty.png ***!
-  \******************************************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-"use strict";
-module.exports = __webpack_require__.p + "assets/images/4c57516f940048f367c1.png";
-
-/***/ }),
-
 /***/ "@apitable/components":
 /*!***************************************************************************************************************************************************!*\
   !*** external {"commonjs":"@apitable/components","commonjs2":"@apitable/components","amd":"@apitable/components","root":"_@apitable/components"} ***!
@@ -43354,26 +43341,6 @@ module.exports = JSON.parse('{"strings":{"pivot_table_no_data":{"en_US":"At leas
 /******/ 			if (!module.children) module.children = [];
 /******/ 			return module;
 /******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/publicPath */
-/******/ 	(() => {
-/******/ 		var scriptUrl;
-/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
-/******/ 		var document = __webpack_require__.g.document;
-/******/ 		if (!scriptUrl && document) {
-/******/ 			if (document.currentScript)
-/******/ 				scriptUrl = document.currentScript.src
-/******/ 			if (!scriptUrl) {
-/******/ 				var scripts = document.getElementsByTagName("script");
-/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
-/******/ 			}
-/******/ 		}
-/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
-/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
-/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
-/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
-/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
