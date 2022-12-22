@@ -25,9 +25,6 @@ yarn start
 - [ ] Support for year-over-year and year-over-annual statistics
 - [ ] Richer configuration options
 
-## Example
-![cover](example.png)
-
 ### Official Tutorial
 For more usage scenarios and tips, you can refer to the official tutorial at:
 👉 [Click me](https://help.apitable.com/docs/guide/intro-widget-pivot)
