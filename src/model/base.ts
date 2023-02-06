@@ -84,7 +84,6 @@ export const formatByFieldType = (cellValue, thinField: ThinField) => {
   if (
     type === FieldType.MagicLookUp && 
     NEED_FORMAT_TEXT_TYPES.has(entityType) && 
-    basicValueType === BasicValueType.String && 
     Array.isArray(cellValue)
   ) {
     cellValue = cellValue.join(', ');
