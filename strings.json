@@ -1,144 +1,191 @@
 {
 	"strings": {
 		"pivot_table_no_data": {
+			"zh_CN": "至少需要选择 1 个行（列）维度和 1 个统计值才能渲染为透视表",
 			"en_US": "At least one row (column) group and one summary value  must be selected to render as a PivotTable"
 		},
 		"pivot_table_no_data_plus": {
+			"zh_CN": "至少需要选择 1 个行维度、1 个列维度和 1 个统计值才能渲染为透视表",
 			"en_US": "At least one row, one column and one summary value  must be selected to render as a PivotTable"
 		},
 		"pivot_table_filter_result_is_empty": {
+			"zh_CN": "没有数据可以显示， 可以排查下对应视图或筛选条件",
 			"en_US": "No data can be displayed, you can check the corresponding view or filter criteria"
 		},
 		"pivot_settings": {
+			"zh_CN": "透视表配置",
 			"en_US": "Pivot settings"
 		},
 		"pivot_function_settings": {
+			"zh_CN": "功能配置",
 			"en_US": "Function settings"
 		},
 		"pivot_select_view": {
+			"zh_CN": "选择一个视图来读取数据",
 			"en_US": "Select a view as data source"
 		},
 		"pivot_select_row": {
+			"zh_CN": "选择一个字段作为行维度",
 			"en_US": "Row"
 		},
 		"pivot_select_column": {
+			"zh_CN": "选择一个字段作为列维度",
 			"en_US": "Column"
 		},
 		"pivot_select_value": {
+			"zh_CN": "选择一个字段作为统计值",
 			"en_US": "Summarize by"
 		},
 		"pivot_split_multiple_values": {
+			"zh_CN": "分离多选值",
 			"en_US": "Split multiple values"
 		},
 		"pivot_more_settings": {
+			"zh_CN": "更多设置",
 			"en_US": "More settings"
 		},
 		"pivot_row_sort": {
+			"zh_CN": "设置行维度的排序",
 			"en_US": "Sets the sorting of row"
 		},
 		"pivot_column_sort": {
+			"zh_CN": "设置列维度的排序",
 			"en_US": "Sets the sorting of column"
 		},
 		"pivot_summary_option": {
+			"zh_CN": "显示总计",
 			"en_US": "Show Totals"
 		},
 		"pivot_totals": {
+			"zh_CN": "总计",
 			"en_US": "Totals"
 		},
 		"pivot_subtotals": {
+			"zh_CN": "小计",
 			"en_US": "SubTotals"
 		},
 		"value_field_average": {
+			"zh_CN": "平均值",
 			"en_US": "AVERAGE"
 		},
 		"value_field_max": {
+			"zh_CN": "最大值",
 			"en_US": "MAX"
 		},
 		"value_field_min": {
+			"zh_CN": "最小值",
 			"en_US": "MIN"
 		},
 		"value_field_sum": {
+			"zh_CN": "求和",
 			"en_US": "SUM"
 		},
 		"value_field_count_all": {
+			"zh_CN": "记录总数",
 			"en_US": "COUNTALL"
 		},
 		"value_field_empty": {
+			"zh_CN": "未填写",
 			"en_US": "EMPTY"
 		},
 		"value_field_filled": {
+			"zh_CN": "已填写",
 			"en_US": "FILLED"
 		},
 		"value_field_unique": {
+			"zh_CN": "唯一值",
 			"en_US": "UNIQUE"
 		},
 		"value_field_percent_empty": {
+			"zh_CN": "未填写百分比",
 			"en_US": "PERCENTEMPTY"
 		},
 		"value_field_percent_filled": {
+			"zh_CN": "已填写百分比",
 			"en_US": "PERCENTFILLED"
 		},
 		"value_field_percent_unique": {
+			"zh_CN": "唯一值百分比",
 			"en_US": "PERCENTUNIQUE"
 		},
 		"year": {
+			"zh_CN": "年",
 			"en_US": "Year"
 		},
 		"year_month_day_hyphen": {
+			"zh_CN": "年-月-日",
 			"en_US": "Year-Month-Day"
 		},
 		"label_format_year_and_month_split_by_dash": {
+			"zh_CN": "年-月",
 			"en_US": "Year-Month"
 		},
 		"year_season_hyphen": {
+			"zh_CN": "年-季度",
 			"en_US": "Year-Season"
 		},
 		"year_week_hyphen": {
+			"zh_CN": "年-周",
 			"en_US": "Year-Week"
 		},
 		"pivot_option_view_had_been_deleted": {
+			"zh_CN": "视图已失效，请重新选择",
 			"en_US": "The view is invalid, please select again"
 		},
 		"pivot_option_field_had_been_deleted": {
+			"zh_CN": "字段已失效，请重新选择",
 			"en_US": "The field is invalid, please select again"
-		},
+	},
 		"option_blank": {
+			"zh_CN": "[无]",
 			"en_US": "[None]"
 		},
 		"pivot_sort_by_ascending": {
+			"zh_CN": "正序排序",
 			"en_US": "Ascending"
 		},
 		"pivot_sort_by_descending": {
+			"zh_CN": "倒序排序",
 			"en_US": "Descending"
 		},
 		"pivot_sort_by_default": {
+			"zh_CN": "默认",
 			"en_US": "Default"
 		},
 		"pick_one_option": {
+			"zh_CN": "请选择一个选项",
 			"en_US": "Pick a field"
 		},
 		"search": {
+			"zh_CN": "搜索",
 			"en_US": "Search"
 		},
 		"date_time_format": {
+			"zh_CN": "日期格式",
 			"en_US": "Date format"
 		},
 		"serial_number": {
+			"zh_CN": "序号",
 			"en_US": "Num"
 		},
 		"empty": {
+			"zh_CN": "空",
 			"en_US": "Empty"
 		},
 		"pivot_setting_help_tips": {
+			"zh_CN": "配置教程",
 			"en_US": "Setting help"
 		},
 		"pivot_setting_help_url": {
-			"en_US": "https://help.apitable.com/docs/guide/intro-widget-pivot"
+				"zh_CN": "https://help.vika.cn/docs/guide/intro-widget-pivot",
+				"en_US": "https://help.vika.cn/docs/guide/intro-widget-pivot"
 		},
 		"pivot_filter_info": {
+			"zh_CN": "新增筛选条件（多个筛选按“且”运算）",
 			"en_US": "Add filtering criteria (Logical Conjunction)"
 		},
 		"pivot_equal": {
+			"zh_CN": "等于",
 			"en_US": "is..."
 		}
 	}

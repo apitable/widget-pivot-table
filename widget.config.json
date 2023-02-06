@@ -4,6 +4,7 @@
   "globalPackageId": "wpkgMavSIOOR9",
   "entry": "./src/index.tsx",
   "name": {
+    "zh-CN": "透视表（Pivot Table）",
     "en-US": "Pivot table"
   },
   "icon": "./package_icon.png",
@@ -13,6 +14,7 @@
   "authorLink": "https://developers.apitable.com",
   "authorEmail": "developer@apitable.com",
   "description": {
+    "zh-CN": "将数据进行分类汇总统计，常用于分析、汇报、年度报表等场景",
     "en-US": "Summarize your records in a pivot table"
   },
   "website": "https://help.apitable.com/docs/guide/intro-widget-pivot"
