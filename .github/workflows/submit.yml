@@ -1,0 +1,63 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Submit
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches:
+      - main
+    paths:
+      - 'package.json'
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      allow_error:
+        description: 'allow a workflow run from failing when a job fails'
+        required: false
+        default: false
+        type: boolean
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        # persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal access token.
+        fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+    - name: Get yarn cache directory path
+      id: yarn-cache-dir-path
+      run: echo "::set-output name=dir::node_modules"
+
+    - uses: actions/cache@v3
+      id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+      with:
+        path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+        key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.os }}-yarn-
+
+    - name: Install NPM dependencies
+      run: yarn install
+
+    - name: Get submit version
+      id: version
+      uses: ashley-taylor/read-json-property-action@v1.0
+      with:
+        path: ./package.json
+        property: version
+
+    # develop submit
+    - name: Submit Widget develop
+      continue-on-error: ${{ inputs.allow_error }}
+      run: |
+        echo "Submit Widget develop"
+        npx -y @apitable/widget-cli submit --version ${{steps.version.outputs.value}} --host ${{ secrets.DEVELOP_HOST }} --token ${{ secrets.DEVELOP_TOKEN }}
+
+    # production submit
+    - name: Submit Widget production
+      continue-on-error: ${{ inputs.allow_error }}
+      run: |
+        echo "Submit Widget production"
+        npx -y @apitable/widget-cli submit --version ${{steps.version.outputs.value}} --host ${{ secrets.PRODUCTION_HOST }} --token ${{ secrets.PRODUCTION_TOKEN }}
