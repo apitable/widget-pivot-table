@@ -3,6 +3,7 @@ import { useFields, useViewsMeta, t } from '@apitable/widget-sdk';
 import { COUNT_ALL_VALUE, DATE_TIME_FORMATTER_TYPES, isNumberType, SortType } from './schema';
 import { FieldSelect } from '../components';
 import { StatType, Strings } from '../utils';
+import Settings from '../../settings.json';
 
 export const useGetDefaultFormData = () => {
   const views = useViewsMeta();
@@ -70,7 +71,7 @@ export const getUiSchema = (viewId: string) => ({
   'ui:options': {
     help: {
       text: t(Strings.pivot_setting_help_tips),
-      url: t(Strings.pivot_setting_help_url),
+      url: Settings.pivot_setting_help_url,
     },
   },
   configuration: {

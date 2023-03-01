@@ -176,10 +176,6 @@
 			"zh_CN": "配置教程",
 			"en_US": "Setting help"
 		},
-		"pivot_setting_help_url": {
-				"zh_CN": "https://help.vika.cn/docs/guide/intro-widget-pivot",
-				"en_US": "https://help.vika.cn/docs/guide/intro-widget-pivot"
-		},
 		"pivot_filter_info": {
 			"zh_CN": "新增筛选条件（多个筛选按“且”运算）",
 			"en_US": "Add filtering criteria (Logical Conjunction)"
