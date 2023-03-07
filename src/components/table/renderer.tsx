@@ -86,6 +86,9 @@ export const renderer = (
           text={
             basicValueType === BasicValueType.DateTime ? cellValue : field.convertCellValueToString(cellValue)
           }
+          cellStyle={{
+            wordBreak: 'break-word'
+          }}
         />
       );
     case FieldType.SingleSelect:
