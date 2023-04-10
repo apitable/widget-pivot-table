@@ -26,6 +26,7 @@ import {
   ColumnSingleNonzeroFilled, 
   ColumnFormulaFilled,
   ColumnCheckboxFilled,
+  CascadeOutlined
 } from '@apitable/icons';
 import styled from 'styled-components';
 import { Strings } from '../../utils/i18n';
@@ -55,6 +56,7 @@ const FieldIconMap = {
   [FieldType.LastModifiedTime]: ColumnLastmodifiedtimeFilled,
   [FieldType.CreatedBy]: ColumnCreatedbyFilled,
   [FieldType.LastModifiedBy]: ColumnLastmodifiedbyFilled,
+  [FieldType.Cascader]: CascadeOutlined
 };
 
 const transformOptions = (enumOptions: { label: string, value: any }[], theme: ITheme, fields: Field[]) => {
