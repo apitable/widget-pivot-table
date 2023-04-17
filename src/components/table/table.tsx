@@ -33,11 +33,11 @@ export const PivotTable: FC<ITableProps> = memo((props) => {
   const { formData } = props;
   const { configuration, more } = formData;
   const { isSummary, rowSortType, columnSortType } = more;
-  const { rowDimensions, columnDimensions, valueDimensions, viewId } = configuration;
+  const { rowDimensions, columnDimensions, valueDimensions, viewId, filter } = configuration;
   const colors = useThemeColors();
 
   const fields = useFields(viewId);
-  const records = useRecords(viewId);
+  const records = useRecords(viewId, { filter });
   const [indicatorSide] = useState('top');
   const handledValueDimensions = useMemo(() => {
     return valueDimensions.map((dim, index) => {

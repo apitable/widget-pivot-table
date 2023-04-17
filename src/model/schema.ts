@@ -15,6 +15,7 @@ export interface ValueDimensionProps {
 export interface IFormDataProps {
   configuration: {
     viewId: string;
+    filter: string;
     rowDimensions: AxisDimensionProps[];
     columnDimensions: AxisDimensionProps[];
     valueDimensions: ValueDimensionProps[];
@@ -151,6 +152,9 @@ export class FormSchema {
           title: t(Strings.pivot_function_settings),
           properties: {
             viewId: this.getViewIdFormJSON(),
+            filter: {
+              type: 'string',
+            },
             rowDimensions: this.getRowDimensionsFormJSON(),
             columnDimensions: this.getColumnDimensionsFormJSON(),
             valueDimensions: this.getValueDimensionsFormJSON(),
