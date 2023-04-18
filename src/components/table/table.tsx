@@ -37,7 +37,8 @@ export const PivotTable: FC<ITableProps> = memo((props) => {
   const colors = useThemeColors();
 
   const fields = useFields(viewId);
-  const records = useRecords(viewId, { filter });
+  const recordQuery = useMemo(() => ({ filter }), [filter]);
+  const records = useRecords(viewId, recordQuery);
   const [indicatorSide] = useState('top');
   const handledValueDimensions = useMemo(() => {
     return valueDimensions.map((dim, index) => {
