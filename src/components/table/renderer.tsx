@@ -69,6 +69,7 @@ export const renderer = (
         />
       );
     case FieldType.Text:
+    case FieldType.Cascader:
       return <CellMultiText text={cellValue} />;
     case FieldType.DateTime:
     case FieldType.CreatedTime:

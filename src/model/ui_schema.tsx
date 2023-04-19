@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react';
 import { useFields, useViewsMeta, t } from '@apitable/widget-sdk';
 import { COUNT_ALL_VALUE, DATE_TIME_FORMATTER_TYPES, isNumberType, SortType } from './schema';
-import { FieldSelect } from '../components';
+import { FieldSelect, FilterSelect } from '../components';
 import { StatType, Strings } from '../utils';
 import Settings from '../../settings.json';
 
@@ -24,6 +24,7 @@ export const useGetDefaultFormData = () => {
     return {
       configuration: {
         viewId: views[0].id,
+        filter: null,
         rowDimensions: [{ fieldId: rowFieldId, dateTimeFormatter: DATE_TIME_FORMATTER_TYPES[0] }],
         columnDimensions: [{ fieldId: columnFieldId, dateTimeFormatter: DATE_TIME_FORMATTER_TYPES[0] }],
         valueDimensions: [{ fieldId: valueFieldId, statType: StatType.Sum }],
@@ -75,6 +76,14 @@ export const getUiSchema = (viewId: string) => ({
     },
   },
   configuration: {
+    filter: {
+      'ui:options': {
+        showTitle: false,
+      },
+      'ui:widget': (props) => {
+        return <FilterSelect value={props.value} onChange={filter => props.onChange(filter)}/>;
+      },
+    },
     rowDimensions: getDimensionsUiSchema(viewId),
     columnDimensions: getDimensionsUiSchema(viewId),
     valueDimensions: {
