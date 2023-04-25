@@ -1,5 +1,6 @@
 import React, { memo } from 'react';
 import { useThemeColors } from '@apitable/components';
+import Settings from '../../../../settings.json';
 
 interface EmptyContentProps {
   content: string;
@@ -13,7 +14,7 @@ export function defaultEmptyContent(props: EmptyContentProps) {
       <>
         <img 
           alt="empty-image" 
-          src="https://legacy-s1.apitable.com/space/2022/12/22/0357ee4370a24c4fa5987826ba52e11f?attname=image.png"
+          src={Settings.pivot_empty_image_url}
           style={{
             width: 160,
             height: 120
