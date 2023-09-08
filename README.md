@@ -27,4 +27,4 @@ yarn start
 
 ### Official Tutorial
 For more usage scenarios and tips, you can refer to the official tutorial at:
-👉 [Click me](https://help.apitable.com/docs/guide/intro-widget-pivot)
+👉 [Click me](https://help.aitable.ai/docs/guide/intro-widget-pivot)
