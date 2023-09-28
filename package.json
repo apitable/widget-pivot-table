@@ -1,5 +1,5 @@
 {
-  "version": "0.1.4",
+  "version": "1.2.0",
   "description": "Pivot table",
   "engines": {
     "node": ">=8.x"
@@ -38,8 +38,8 @@
     "@types/react": "^16.9.43",
     "@types/react-dom": "^16.9.8",
     "@apitable/components": "latest",
-    "@apitable/icons": "latest",
-    "@apitable/widget-sdk": "latest",
+    "@apitable/icons": "^1.2.0",
+    "@apitable/widget-sdk": "^1.2.0",
     "ali-react-table": "2.6.1",
     "dayjs": "^1.10.7",
     "lodash": "^4.17.21",
