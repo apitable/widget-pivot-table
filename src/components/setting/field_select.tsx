@@ -23,10 +23,12 @@ import {
   ColumnLongtextFilled,
   ColumnPhoneFilled,
   ColumnLookupNonzeroFilled,
-  ColumnSingleNonzeroFilled, 
+  ColumnSingleNonzeroFilled,
   ColumnFormulaFilled,
   ColumnCheckboxFilled,
-  CascadeOutlined
+  CascadeOutlined,
+  OneWayLinkOutlined,
+  TwoWayLinkOutlined
 } from '@apitable/icons';
 import styled from 'styled-components';
 import { Strings } from '../../utils/i18n';
@@ -51,6 +53,9 @@ const FieldIconMap = {
   [FieldType.Currency]: ColumnCurrencyFilled,
   [FieldType.Percent]: ColumnPercentFilled,
   [FieldType.SingleText]: ColumnTextFilled,
+  [FieldType.OneWayLink]: OneWayLinkOutlined,
+  [FieldType.TwoWayLink]: TwoWayLinkOutlined,
+  [FieldType.MagicLink]: TwoWayLinkOutlined,
   [FieldType.AutoNumber]: ColumnAutonumberFilled,
   [FieldType.CreatedTime]: ColumnCreatedtimeFilled,
   [FieldType.LastModifiedTime]: ColumnLastmodifiedtimeFilled,
@@ -74,7 +79,7 @@ const transformOptions = (enumOptions: { label: string, value: any }[], theme: I
     const FieldIcon = FieldIconMap[field.type];
     return {
       ...res,
-      prefixIcon: <FieldIcon color={theme.palette.text.third} />,
+      prefixIcon: FieldIcon != null ? <FieldIcon color={theme.palette.text.third} />: null,
     };
   }).filter(Boolean) as IOption[];
 };
