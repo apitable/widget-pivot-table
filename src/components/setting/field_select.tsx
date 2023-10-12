@@ -41,7 +41,6 @@ const FieldIconMap = {
   [FieldType.MultiSelect]: ColumnMultipleFilled,
   [FieldType.DateTime]: ColumnCalendarNonzeroFilled,
   [FieldType.Attachment]: ColumnAttachmentFilled,
-  [FieldType.MagicLink]: ColumnLinktableFilled,
   [FieldType.URL]: ColumnUrlOutlined,
   [FieldType.Email]: ColumnEmailNonzeroFilled,
   [FieldType.Phone]: ColumnPhoneFilled,
