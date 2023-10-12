@@ -120,6 +120,8 @@ export const renderer = (
     case FieldType.Checkbox:
       return <CellCheckbox field={property} checked={cellValue} />;
     case FieldType.MagicLink:
+    case FieldType.TwoWayLink:
+    case FieldType.OneWayLink:
       return (
         <CellLink cellValue={cellValue} />
       );

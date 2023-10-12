@@ -97,6 +97,8 @@ export const formatByFieldType = (cellValue, thinField: ThinField) => {
 
   switch (entityType) {
     case FieldType.MagicLink:
+    case FieldType.TwoWayLink:
+    case FieldType.OneWayLink:
       return defaultFormatFn(sortBy(cellValue, 'title'));
     case FieldType.Member:
     case FieldType.MultiSelect:
@@ -120,6 +122,8 @@ export const SPLIT_TYPE_MAP = new Set([
   FieldType.Member, 
   FieldType.MultiSelect, 
   FieldType.MagicLink,
+  FieldType.TwoWayLink,
+  FieldType.OneWayLink,
   FieldType.MagicLookUp,
 ]);
 
