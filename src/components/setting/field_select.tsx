@@ -6,7 +6,6 @@ import styled from 'styled-components';
 import { Strings } from '../../utils/i18n';
 import { COUNT_ALL_VALUE } from '../../model';
 
-
 const transformOptions = (enumOptions: { label: string, value: any }[], theme: ITheme, fields: Field[]) => {
   const fieldMap = new Map(fields.map(field => [field.id, field]));
   return enumOptions.map(option => {
