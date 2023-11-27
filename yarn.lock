@@ -115,10 +115,10 @@
   resolved "https://registry.npmmirror.com/@apitable/icons/-/icons-0.0.1.tgz#13484c89c271c915d9dfc024215d9fdadc5ec506"
   integrity sha512-Mvo++bkOoFxpC79HM4GLhgCcgJSo5NZlov5pv3CLZk4R7idvNz2lOLiyTWKDpcDBVNiDAKoF1D2asJ8R7cekBw==
 
-"@apitable/icons@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@apitable/icons/-/icons-1.2.0.tgz#7d22b84b65eb2b4f86367ca664ae907c3e7f0629"
-  integrity sha512-g+f6zA49yeDZcfOXK+FlMLUmgIVQxdYkIns/vi/NM+h9jQYN6Fp+w4051a9Q4vS48j4A1g2gwheLj6hnATuqRw==
+"@apitable/icons@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@apitable/icons/-/icons-1.4.0.tgz#107bf4ada53c271f8c702e66d7853d88089efb97"
+  integrity sha512-m3+6p61WRLcSOFENTYF3thwjbsE7jyrcM8W00XdvAWWUR9FtzfeMRfHk/R9QQhyJQDQW6JYXy9KzBGPY3cmACg==
 
 "@apitable/react-contexify@^5.0.7":
   version "5.0.7"
@@ -127,10 +127,10 @@
   dependencies:
     clsx "^1.1.1"
 
-"@apitable/widget-sdk@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@apitable/widget-sdk/-/widget-sdk-1.2.0.tgz#e5b5547e550e768d6ec6969acf5be70cf1898cc9"
-  integrity sha512-jT/7nbHlngAMqycKaIIt9U30piwexGLMIG7dt5MutvoHX8VQukxYseIQYawKI5CifKcQhdEPvcEEcs/f/joGuw==
+"@apitable/widget-sdk@^1.4.0":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@apitable/widget-sdk/-/widget-sdk-1.4.1.tgz#1bccbed01acb187e6d34e0e1b1777c6b067b827a"
+  integrity sha512-7LWg8lxpNyV1PVOspyH0lBBX/GSFG9yV23O06bVWu2rmBMKnQfDBzBVCqe6O4fND294JO0jHNsA9wG7os1C6VQ==
   dependencies:
     "@apitable/components" "*"
     "@apitable/core" "*"
@@ -139,7 +139,7 @@
     ahooks "^3.5.0"
     antd "4.23.5"
     attr-accept "^2.1.0"
-    axios "0.21.2"
+    axios "0.21.4"
     bowser "^2.11.0"
     dayjs "^1.11.7"
     emoji-mart "^3.0.0"
@@ -2005,10 +2005,10 @@ axios@0.19.0:
     follow-redirects "1.5.10"
     is-buffer "^2.0.2"
 
-axios@0.21.2:
-  version "0.21.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.2.tgz#21297d5084b2aeeb422f5d38e7be4fbb82239017"
-  integrity sha512-87otirqUw3e8CzHTMO+/9kh/FSgXt/eVDvipijwDtEuwbkySWZ9SBm6VEubmJ/kLKEoLQV/POhxXFb66bfekfg==
+axios@0.21.4:
+  version "0.21.4"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
+  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
   dependencies:
     follow-redirects "^1.14.0"
 
